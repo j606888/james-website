@@ -28,7 +28,7 @@ const Portfolio = () => {
             <h3 className="text-xl font-semibold text-[#F2F2F2] md:text-[28px]">
               作品集
             </h3>
-            <p className="text-sm text-[#C2C2C2] md:text-base">
+            <p className="text-sm text-[#C2C2C2] md:text-base lg:text-lg">
               接案 & Side Project
             </p>
           </div>
@@ -47,7 +47,7 @@ const Portfolio = () => {
                   <h4 className="text-xl font-semibold text-[#F2F2F2] md:text-[24px]">
                     {item.title}
                   </h4>
-                  <p className="text-[#D3D3D3] leading-[160%]">
+                  <p className="text-[#D3D3D3] leading-[160%] md:text-lg">
                     {item.description}
                   </p>
                 </div>

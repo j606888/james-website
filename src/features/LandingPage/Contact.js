@@ -33,7 +33,7 @@ const Contact = () => {
             <h1 className="text-xl font-semibold text-[#F2F2F2] md:text-[28px]">
               與我聯絡
             </h1>
-            <p className="text-sm text-[#C2C2C2] text-center md:text-base">
+            <p className="text-sm text-[#C2C2C2] leading-[150%] text-center md:text-base lg:text-lg">
               有想要做的網站卻不知道從何開始嗎？
               <br /> 歡迎聯繫我來討論看看。
             </p>

@@ -11,7 +11,7 @@ const LandingPage = () => {
       <Portfolio />
       <Contact />
       <div className="flex items-center justify-center py-4">
-        <p className="text-[#D4D4D4] text-sm">Copyright © 2025 James Lees</p>
+        <p className="text-[#D4D4D4] text-sm lg:text-base">Copyright © 2025 James Lees</p>
       </div>
     </>
   );

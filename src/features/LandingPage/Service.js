@@ -49,7 +49,7 @@ const Service = () => {
               <h1 className="text-xl font-semibold text-[#F2F2F2] md:text-[28px]">
                 服務項目
               </h1>
-              <p className="text-sm text-[#C2C2C2] md:text-base">
+              <p className="text-sm text-[#C2C2C2] md:text-base lg:text-lg">
                 下面肯定有一個是你需要的吧
               </p>
             </div>
@@ -60,17 +60,17 @@ const Service = () => {
                   className="flex flex-col gap-3 p-3 md:w-[calc(50%-16px)] md:bg-[#212121] md:rounded-[8px]"
                 >
                   <div className="flex items-center gap-2">
-                    <item.icon size={20} />
-                    <h1 className="text-[18px] font-semibold text-[#F2F2F2]">
+                    <item.icon className="w-5 h-5 md:w-6 md:h-6" />
+                    <h1 className="text-[18px] font-semibold text-[#F2F2F2] md:text-[20px]">
                       {item.title}
                     </h1>
                   </div>
-                  <p className="text-[#A1A1A1]">{item.description}</p>
+                  <p className="text-[#A1A1A1] md:text-lg">{item.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {item.tags.map((tag, index) => (
                       <div
                         key={index}
-                        className="bg-[#3F3F3F]/60 text-[#F2F2F2] text-sm rounded-sm h-[28px] px-3 flex items-center justify-center"
+                        className="bg-[#3F3F3F]/60 text-[#F2F2F2] text-sm rounded-sm h-[28px] px-3 flex items-center justify-center md:text-base"
                       >
                         {tag}
                       </div>
