@@ -28,7 +28,7 @@ const CONTENT = [
       "以使用者體驗為導向，透過設計系統與原型製作，讓產品更直覺、好用。",
     tags: [
       "Design System 規劃",
-      "使用者介面設計",
+      "使用者介面設計", 
       "Wireframe 與 Prototype 製作",
     ],
     icon: LuPalette,
