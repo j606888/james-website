@@ -24,13 +24,13 @@ const Hero = () => {
         </p>
         <div className="flex items-center justify-center gap-4 w-full mt-2">
           <button
-            className="flex items-center justify-center flex-1 flex-grow h-[40px] px-4 bg-[#FFFFFF]/90 rounded-sm text-black cursor-pointer md:w-[120px] md:flex-none"
+            className="flex items-center justify-center flex-1 flex-grow h-[40px] px-4 bg-[#FFFFFF]/90 rounded-sm text-black cursor-pointer md:w-[120px] md:flex-none md:font-medium"
             onClick={() => scrollTo("contact")}
           >
             與我聯繫
           </button>
           <button
-            className="flex items-center justify-center flex-1 flex-grow h-[40px] px-4 border border-[#F2F2F2] text-white rounded-sm cursor-pointer md:w-[120px] md:flex-none"
+            className="flex items-center justify-center flex-1 flex-grow h-[40px] px-4 border border-[#F2F2F2] text-white rounded-sm cursor-pointer md:w-[120px] md:flex-none md:font-medium"
             onClick={() => scrollTo("portfolio")}
           >
             查看作品
