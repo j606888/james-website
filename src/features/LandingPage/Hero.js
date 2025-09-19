@@ -3,7 +3,7 @@ import Marquee from "@/components/Marquee";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-4 p-5 text-center bg-[linear-gradient(76deg,#F2F2F2_20.9%,#777_65.37%)] bg-clip-text text-transparent">
+      <div className="flex flex-col items-center justify-center gap-4 px-5 pt-15 pb-10 text-center bg-[linear-gradient(76deg,#F2F2F2_20.9%,#777_65.37%)] bg-clip-text text-transparent">
         <h2 className="text-2xl font-medium ">嗨，我是 James Lee</h2>
         <h1 className="text-[32px] font-medium">
           全端工程師
