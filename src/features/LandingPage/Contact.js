@@ -5,12 +5,14 @@ const CONTENT = [
   {
     title: "Line",
     account: "b10015040",
+    url: "https://line.me/ti/p/jlUfHWWDkF",
     icon: SiLine,
     bgColor: "#222222",
   },
   {
     title: "Instagram",
     account: "j606888",
+    url: "https://www.instagram.com/j606888/",
     icon: SiInstagram,
     bgColor: "#313131",
   },
@@ -37,8 +39,9 @@ const Contact = () => {
           {CONTENT.map((item, index) => (
             <div
               key={index}
-              className="flex gap-3 h-40 items-center justify-center"
+              className="flex gap-3 h-40 items-center justify-center cursor-pointer"
               style={{ backgroundColor: item.bgColor }}
+              onClick={() => item.title === "Phone" ? window.location.href = `tel:${item.account}` : window.open(item.url, "_blank")}
             >
               <item.icon size={40} className="text-[#F2F2F2]/70" />
               <div className="flex flex-col gap-0.5 w-26">
