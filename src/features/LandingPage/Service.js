@@ -38,7 +38,7 @@ const CONTENT = [
 const Service = () => {
   return (
     <div className="relative px-5 py-15 md:py-20 lg:pt-35">
-      <div className="max-w-[1024px] w-full mx-auto">
+      <div className="max-w-[1280px] w-full mx-auto">
         <div className="absolute left-1/2 -translate-x-1/2 pt-40 z-0">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 w-[280px] h-[160px] bg-[#FB923C]/60 rounded-full blur-[120px] " />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200px] h-[100px] bg-[#FDBA74] rounded-full blur-[60px] " />

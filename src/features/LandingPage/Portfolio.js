@@ -22,7 +22,7 @@ const CONTENT = [
 const Portfolio = () => {
   return (
     <div className="relative px-5 scroll-mt-[80px]" id="portfolio">
-      <div className="max-w-[1024px] w-full mx-auto">
+      <div className="max-w-[1280px] w-full mx-auto">
         <div className="flex flex-col gap-6 md:gap-10">
           <div className="flex flex-col gap-2 items-center">
             <h3 className="text-xl font-semibold text-[#F2F2F2] md:text-[28px]">

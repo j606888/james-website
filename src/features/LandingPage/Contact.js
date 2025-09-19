@@ -27,7 +27,7 @@ const CONTENT = [
 const Contact = () => {
   return (
     <div className="relative px-5 py-15 md:py-20 lg:pb-40" id="contact">
-      <div className="max-w-[1024px] w-full mx-auto">
+      <div className="max-w-[1280px] w-full mx-auto">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-2 items-center">
             <h1 className="text-xl font-semibold text-[#F2F2F2] md:text-[28px]">

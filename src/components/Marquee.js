@@ -48,7 +48,7 @@ const data = [
 const Marquee = () => {
   return (
     <div className="relative w-full bg-black flex items-center py-3">
-      <div className="relative max-w-[1024px] w-full mx-auto overflow-x-hidden">
+      <div className="relative max-w-[1280px] w-full mx-auto overflow-x-hidden">
         <div className="pointer-events-none absolute left-0 top-0 h-full w-32 bg-gradient-to-r from-black to-transparent z-10" />
         <div className="pointer-events-none absolute right-0 top-0 h-full w-32 bg-gradient-to-l from-black to-transparent z-10" />
         <motion.div
