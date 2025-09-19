@@ -36,7 +36,7 @@ const Portfolio = () => {
             {CONTENT.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col gap-4 p-4 bg-[linear-gradient(180deg,#3A3A3A_9.79%,#181818_89.02%)] rounded-[10px] md:flex-row-reverse md:p-6"
+                className="flex flex-col gap-4 p-4 bg-[linear-gradient(180deg,#3A3A3A_9.79%,#181818_89.02%)] rounded-[10px] md:flex-row-reverse md:p-6 md:bg-[linear-gradient(99deg,#232323_9.67%,#161616_84.56%)]"
               >
                 <img
                   src={item.image}

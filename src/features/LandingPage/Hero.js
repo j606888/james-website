@@ -9,7 +9,7 @@ const Hero = () => {
   };
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-4 px-5 pt-15 pb-10 text-center bg-[linear-gradient(76deg,#F2F2F2_20.9%,#777_65.37%)] bg-clip-text text-transparent md:pt-30 md:pb-25">
+      <div className="flex flex-col items-center justify-center gap-4 px-5 pt-15 pb-10 text-center bg-[linear-gradient(76deg,#F2F2F2_20.9%,#777_65.37%)] bg-clip-text text-transparent md:pt-30 md:pb-25 lg:pb-40">
         <h2 className="text-2xl font-medium md:text-[32px]">嗨，我是 James Lee</h2>
         <h1 className="text-[32px] font-medium md:text-[48px]">
           全端工程師
