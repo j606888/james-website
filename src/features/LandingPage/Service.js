@@ -37,20 +37,20 @@ const CONTENT = [
 
 const Service = () => {
   return (
-    <div className="relative px-5 py-15">
+    <div className="relative px-5 py-15 md:py-20">
       <div className="absolute left-1/2 -translate-x-1/2 pt-40 z-0">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[280px] h-[160px] bg-[#FB923C]/60 rounded-full blur-[120px] " />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 w-[280px] h-[160px] bg-[#FB923C]/60 rounded-full blur-[120px] " />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200px] h-[100px] bg-[#FDBA74] rounded-full blur-[60px] " />
       </div>
       <div className="relative p-2 rounded-lg bg-[linear-gradient(174deg,rgba(255,255,255,0.20)_7.31%,rgba(85,85,85,0.20)_93.66%)] z-10">
-        <div className="flex flex-col gap-6 items-center bg-[linear-gradient(101deg,#1C1C1C_4.89%,#000_93.16%)] pt-6 pb-3">
+        <div className="flex flex-col gap-6 items-center bg-[linear-gradient(101deg,#1C1C1C_4.89%,#000_93.16%)] pt-6 pb-3 md:gap-10">
           <div className="flex flex-col gap-2 items-center">
-            <h1 className="text-xl font-semibold text-[#F2F2F2]">服務項目</h1>
-            <p className="text-sm text-[#C2C2C2]">下面肯定有一個是你需要的吧</p>
+            <h1 className="text-xl font-semibold text-[#F2F2F2] md:text-[28px]">服務項目</h1>
+            <p className="text-sm text-[#C2C2C2] md:text-base">下面肯定有一個是你需要的吧</p>
           </div>
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-8 md:flex-row md:flex-wrap md:p-6">
             {CONTENT.map((item, index) => (
-              <div key={index} className="flex flex-col gap-3 p-3">
+              <div key={index} className="flex flex-col gap-3 p-3 md:w-[calc(50%-16px)] md:bg-[#212121] md:rounded-[8px]">
                 <div className="flex items-center gap-2">
                   <item.icon size={20} />
                   <h1 className="text-[18px] font-semibold text-[#F2F2F2]">

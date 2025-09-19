@@ -19,17 +19,17 @@ const CONTENT = [
 const Portfolio = () => {
   return (
     <div className="relative px-5 scroll-mt-[80px]" id="portfolio">
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 md:gap-10">
         <div className="flex flex-col gap-2 items-center">
-          <h3 className="text-xl font-semibold text-[#F2F2F2]">作品集</h3>
-          <p className="text-sm text-[#C2C2C2]">接案 & Side Project</p>
+          <h3 className="text-xl font-semibold text-[#F2F2F2] md:text-[28px]">作品集</h3>
+          <p className="text-sm text-[#C2C2C2] md:text-base">接案 & Side Project</p>
         </div>
         <div className="flex flex-col gap-6">
           {CONTENT.map((item, index) => (
-            <div key={index} className="flex flex-col gap-4 p-4 bg-[linear-gradient(180deg,#3A3A3A_9.79%,#181818_89.02%)] rounded-[10px]">
-              <img src={item.image} alt={item.title} className="w-full h-full object-cover rounded-[10px]" />
-              <div className="flex flex-col gap-4">
-                <h4 className="text-xl font-semibold text-[#F2F2F2]">{item.title}</h4>
+            <div key={index} className="flex flex-col gap-4 p-4 bg-[linear-gradient(180deg,#3A3A3A_9.79%,#181818_89.02%)] rounded-[10px] md:flex-row-reverse md:p-6">
+              <img src={item.image} alt={item.title} className="w-full h-full object-cover rounded-[10px] md:w-[45%]" />
+              <div className="flex flex-col gap-4 md:py-3 md:pr-4">
+                <h4 className="text-xl font-semibold text-[#F2F2F2] md:text-[24px]">{item.title}</h4>
                 <p className="text-[#D3D3D3] leading-[160%]">{item.description}</p>
               </div>
             </div>

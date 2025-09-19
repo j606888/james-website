@@ -51,7 +51,7 @@ const Marquee = () => {
       <div className="pointer-events-none absolute left-0 top-0 h-full w-32 bg-gradient-to-r from-black to-transparent z-10" />
       <div className="pointer-events-none absolute right-0 top-0 h-full w-32 bg-gradient-to-l from-black to-transparent z-10" />
       <motion.div
-        className="flex gap-6 w-max min-w-max "
+        className="flex gap-6 w-max min-w-max md:gap-15"
         animate={{ x: ["0%", "-50%"] }}
         transition={{
           duration: 30,
@@ -61,9 +61,9 @@ const Marquee = () => {
         }}
       >
         {[...data, ...data, ...data].map((item, index) => (
-          <div className="flex items-center gap-2 text-[#A2A2A2]" key={index}>
-            <item.icon size={20} />
-            <span className="text-[18px] font-medium whitespace-nowrap">{item.name}</span>
+          <div className="flex items-center gap-2 text-[#A2A2A2] md:gap-4" key={index}>
+            <item.icon className="w-5 h-5 md:w-10 md:h-10" />
+            <span className="text-[18px] font-medium whitespace-nowrap md:text-[24px]">{item.name}</span>
           </div>
         ))}
       </motion.div>
