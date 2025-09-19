@@ -18,7 +18,7 @@ const CONTENT = [
 
 const Portfolio = () => {
   return (
-    <div className="relative px-5">
+    <div className="relative px-5 scroll-mt-[80px]" id="portfolio">
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-2 items-center">
           <h3 className="text-xl font-semibold text-[#F2F2F2]">作品集</h3>
